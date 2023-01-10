@@ -10,3 +10,13 @@
     --blue: #11346f;
     --black: #000;
 }
+
+.home-btn {
+    color: var(--white);
+    background-color: var(--light-blue);
+    border-radius: 60px;
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+}

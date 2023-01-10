@@ -9,3 +9,54 @@
     font-size: 14px;
     line-height: 30px;
 }
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 156px;
+    height: 23.47px;
+}
+
+.header {
+    background-color: rgba(245, 253, 255, 0.8);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(14px);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links li {
+    margin-right: 60px;
+}
+
+.links li a {
+    color: var(--blue);
+    opacity: 0.75;
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 600;
+}
+
+.links li a.active {
+    font-weight: 700;
+    opacity: 1;
+}
+
+.order-btn {
+    cursor: pointer;
+    padding: 11px 0 13px;
+    font-size: 14px;
+    line-height: 19px;
+    width: 165px;
+}
