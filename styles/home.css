@@ -15,8 +15,6 @@
     color: var(--white);
     background-color: var(--light-blue);
     border-radius: 60px;
-    font-family: "Mont";
-    font-style: normal;
-    font-weight: 800;
+    font-family: "mont-bold";
     text-align: center;
 }
