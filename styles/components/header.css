@@ -37,6 +37,7 @@
 }
 
 .links li {
+    display: inline-block;
     margin-right: 60px;
 }
 
