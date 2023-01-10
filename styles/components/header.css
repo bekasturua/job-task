@@ -42,6 +42,7 @@
 }
 
 .links li a {
+    text-decoration: none;
     color: var(--blue);
     opacity: 0.75;
     font-family: "Mont";
