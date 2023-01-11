@@ -197,5 +197,31 @@
     margin-left: 6px;
 }
 .rate-icon {
-    fill: var(--light-blue);
+    color: var(--light-blue);
+}
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+    font-family: "mont-bold";
+    padding: 25px 60px;
+    background-color: var(--blue);
+    color: var(--white);
+    line-height: 30px;
+    font-size: 16px;
+}
+.offer {
+    display: flex;
+    align-items: center;
+}
+
+.offer-img {
+    background-color: var(--white);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
