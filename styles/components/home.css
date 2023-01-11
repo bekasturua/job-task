@@ -1,0 +1,37 @@
+.home {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 63px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.title {
+    font-family: "mont-bold";
+    font-size: 42px;
+    line-height: 55px;
+    color: var(--blue);
+    grid-column: 1/5;
+}
+
+.title span {
+    color: var(--light-blue);
+    font-family: "mont-bold";
+    display: inline-block;
+    position: relative;
+}
+
+.title span:after {
+    position: absolute;
+    content: url("../../imgs/Vector\ 198\ \(Stroke\).jpg");
+    bottom: -20px;
+    left: -20px;
+}
+
+.title span:before {
+    content: url("../../imgs/Vector\ 4\ \(Stroke\).jpg");
+    position: absolute;
+    right: -80px;
+    transform: rotate(10deg);
+}
