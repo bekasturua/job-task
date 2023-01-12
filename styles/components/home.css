@@ -225,3 +225,38 @@
     justify-content: center;
     align-items: center;
 }
+
+/* packages */
+
+.packages {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.packages {
+    background: linear-gradient(118.72deg, #aeccff -18.14%, #197aff 165.34%);
+    padding-top: 29px;
+    padding-bottom: 54px;
+}
+.packages-title {
+    color: var(--blue);
+    font-size: 37px;
+    line-height: 49px;
+    font-family: "mont-Bold";
+    text-align: center;
+    margin-bottom: 55px;
+}
+.packages-title span {
+    display: block;
+    position: relative;
+    color: var(--white);
+    font-family: "mont-Bold";
+}
+
+.packages-title span:after {
+    content: url("../../imgs/packages-vector.jpg");
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -22px;
+}
