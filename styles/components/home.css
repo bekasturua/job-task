@@ -277,6 +277,11 @@
 .card-img {
     margin-top: -16px;
 }
+
+.card-img img {
+    height: 100px;
+}
+
 .card-title {
     font-size: 28px;
     line-height: 37px;
@@ -607,7 +612,7 @@
     position: relative;
 }
 .faq-title span:after {
-    content: url("../../img/questions-underline.svg");
+    content: url("../../imgs/Vector 198 (Stroke).png");
     position: absolute;
     left: -10px;
     bottom: -21px;
