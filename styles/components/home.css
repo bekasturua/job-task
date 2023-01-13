@@ -334,6 +334,30 @@
     left: 0;
     top: 50%;
 }
+.category-card-2 {
+    font-family: "mont-semiBold";
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--white);
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 50px;
+    margin: 24px 0 10px;
+    background: #57ac73;
+}
+
+.category-card-3 {
+    font-family: "mont-semiBold";
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--white);
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 50px;
+    margin: 24px 0 10px;
+    background: #ac5780;
+}
+
 .installments {
     display: flex;
     justify-content: space-between;
