@@ -626,10 +626,25 @@
     padding: 20px 30px;
     height: 100%;
 }
+
 .answer:not(.visible) {
     display: none;
 }
 .rotate {
     transform: rotate(180deg);
     transition: all 1s;
+}
+
+.see-all-faq p {
+    font-family: "mont-bold";
+    font-size: 16px;
+    line-height: 20px;
+    color: #f6f8fc;
+    margin-right: 12px;
+}
+
+.see-all-faq {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 }
