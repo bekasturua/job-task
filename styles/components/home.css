@@ -30,7 +30,7 @@
 }
 
 .title span:before {
-    content: url("../../imgs/Vector\ 4\ \(Stroke\).jpg");
+    content: url("../../imgs/Arrow 23 (1).png");
     position: absolute;
     right: -80px;
     transform: rotate(10deg);
@@ -670,6 +670,13 @@
     line-height: 20px;
     color: #f6f8fc;
     margin-right: 12px;
+}
+
+.question img {
+    display: flex;
+    align-items: center;
+    height: 7px;
+    width: 15px;
 }
 
 .see-all-faq {
